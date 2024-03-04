@@ -47,3 +47,33 @@
     font-weight: 500;
     color: white;
 }
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+   
+  
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+   
+  
+  }
+  
+  @media screen and (max-width: 576px) {
+    .Sounds{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .Sounds{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    
+  }

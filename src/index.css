@@ -83,3 +83,47 @@ body{
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .character-con{
+    width: 120%;
+  }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .App{
+    width: 40%;
+    margin: 1rem 15rem;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .App{
+    width: 50%;
+    margin: 1rem 10rem;
+  }
+  .character-con{
+    grid-template-columns: repeat(3, 3fr);
+
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .App{
+    width: 70%;
+    margin: 1rem 5rem;
+  }
+  .character-con{
+    grid-template-columns: repeat(2, 4fr);
+
+  }
+  .character-con .characters{
+    width: 100px;
+  }
+}
